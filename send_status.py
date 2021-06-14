@@ -12,6 +12,10 @@ def message_user(message_text, chat_id):
 	}
 	requests.post(url, data=message_data)
 
+
+
+
+
 def main():
 	message_dev('asdasd')
 
